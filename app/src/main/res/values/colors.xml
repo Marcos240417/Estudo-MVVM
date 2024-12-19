@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pinks -->
+    <color name="pinkDark">#AD1457</color>
+    <color name="pinkLight">#F48FB1</color>
+    <color name="pinkPastel">#FFC1E3</color>
+
+    <!-- Blues -->
+    <color name="blueOcean">#1565C0</color>
+    <color name="blueSky">#81D4FA</color>
+    <color name="blueNavy">#003366</color>
+
+    <!-- Greens -->
+    <color name="greenForest">#388E3C</color>
+    <color name="greenMint">#A5D6A7</color>
+    <color name="greenEmerald">#50C878</color>
+
+    <!-- Purples -->
+    <color name="purpleRoyal">#512DA8</color>
+    <color name="purpleLavender">#E1BEE7</color>
+    <color name="purpleAmethyst">#9966CC</color>
+
+    <!-- Neutrals -->
+    <color name="grayDark">#424242</color>
+    <color name="grayLight">#E0E0E0</color>
+    <color name="graySlate">#708090</color>
+
+    <!-- Yellows -->
+    <color name="yellowSunshine">#FFEB3B</color>
+    <color name="yellowGold">#FFD700</color>
+    <color name="yellowMustard">#FFCA28</color>
+
+    <!-- Reds -->
+    <color name="redBrick">#B71C1C</color>
+    <color name="redCrimson">#DC143C</color>
+    <color name="redCherry">#F44336</color>
+
+    <!-- Oranges -->
+    <color name="orangePeach">#FFAB91</color>
+    <color name="orangePumpkin">#FF7043</color>
+    <color name="orangeCarrot">#FFA726</color>
+
+
+</resources>

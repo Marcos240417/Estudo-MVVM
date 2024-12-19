@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="@color/blueSky"
+    app:cardElevation="4dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pinkLight"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:scrollbars="vertical"
+                android:ellipsize="end"
+                tools:text="id"
+                app:layout_constraintEnd_toStartOf="@id/txtsector"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                android:id="@+id/txtsector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:scrollbars="vertical"
+                android:ellipsize="end"
+                tools:text="Setor"
+                app:layout_constraintStart_toEndOf="@+id/txtid"
+                app:layout_constraintEnd_toStartOf="@id/txtmanufacturer"
+                app:layout_constraintTop_toTopOf="@id/txtid" />
+
+            <TextView
+                android:id="@+id/txtmanufacturer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:scrollbars="vertical"
+                android:ellipsize="end"
+                tools:text="Fabricante"
+                app:layout_constraintStart_toEndOf="@+id/txtsector"
+                app:layout_constraintEnd_toEndOf="@id/txtsafe"
+                app:layout_constraintTop_toTopOf="@id/txtsector" />
+
+            <TextView
+                android:id="@+id/txtsafe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:scrollbars="vertical"
+                android:ellipsize="end"
+                tools:text="Seguro"
+                app:layout_constraintStart_toEndOf="@+id/txtmanufacturer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/txtmanufacturer" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
